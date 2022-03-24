@@ -3,10 +3,10 @@
 
 pragma solidity ^0.4.21;
 
-import "./AryInterface.sol";
+import "./JHAATUTOKENInterface.sol";
 
 
-contract Aryanaldo7 is EIP20Interface {
+contract JHAATUTOKEN is EIP20Interface {
 
     uint256 constant private MAX_UINT256 = 2**256 - 1;
     mapping (address => uint256) public balances;
@@ -21,7 +21,7 @@ contract Aryanaldo7 is EIP20Interface {
     uint8 public decimals;                //How many decimals to show.
     string public symbol;                 //An identifier: eg SBX
 
-    function Aryanaldo7(
+    function JHAATUTOKEN(
         uint256 _initialAmount,
         string _tokenName,
         uint8 _decimalUnits,
